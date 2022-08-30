@@ -3,8 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
-};
+  production: false,
+  token_twitter: "AAAAAAAAAAAAAAAAAAAAADaOgQEAAAAAn%2Fd7mo%2BCIN6gK8eORYQMF9sBDL0%3DnC2YLmuwnnBrrrxS28xjeMngQjZlR5Iz2MAj2apP3KY2YQIHFD",
+  my_nome: "igormarquesdev",
+  my_twitterId: "1563285656532422656"
+  };
 
 /*
  * For easier debugging in development mode, you can import the following file

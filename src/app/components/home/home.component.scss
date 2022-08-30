@@ -1,0 +1,99 @@
+  .tweet {
+    margin: 9px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    max-width: 70%;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 
+    0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .contaner-btn .cont-btn {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+  }
+
+  span {
+    font-size: 10px;
+    display: block;
+    font-weight: 300;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+
+  .text {
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+  }
+
+  .tw {
+    margin: 0 0 5px 0;
+  }
+
+  .contaner-btn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  app-home {
+    border: 1px blue;
+
+  }
+
+  h5 {
+    text-align: center;
+
+  }
+
+  hr {
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 0;
+  }
+
+  .hr {
+    width: 80%;
+
+  }
+
+  .titulo {
+    margin-top: 0;
+
+    margin-bottom: 1px;
+
+  }
+
+  .container-tw .input-text {
+    border: 1px solid #ccc;
+    height: 27px;
+    width: 200px;
+    border-radius: 3px;
+    margin-right: 10px;
+  }
+
+  .container-tw>.formulario {
+    text-align: center;
+  }
+
+  .container-tw {
+    margin: 0 auto;
+    max-width: 300px;
+  }
+
+  .b {
+    background-color: red;
+  }

@@ -1,0 +1,44 @@
+<h1 class="Tweet-Watcher">Tweet Watcher<span>por Igor Marques</span></h1>
+<div class="container-flex">
+    <div class="contaner-btn">
+        <h3 class="tw">Tweet</h3>
+        <div class="cont-btn">
+
+            <input #text placeholder="Envie um Tweet" class="text" type="text">
+            <app-button [titulo]="'Tweet'" (click)="createTweet(text)"></app-button>
+
+        </div>
+    </div>
+
+    <div class="container-tw">
+
+        <h3 class="titulo">Meus Tweets</h3>
+        <hr class="hr">
+        <h5>{{my.name}}</h5>
+
+
+        <app-card [tweets]="myTweets"></app-card>
+
+        <div *ngIf="createText" class="tweet">
+            {{createText}}
+        </div>
+    </div>
+
+    <div class="container-tw">
+        <div class="meu-nome">
+            <h3 class="titulo">Monitorar Tweets</h3>
+            <hr class="hr">
+        </div>
+        <div class="formulario">
+            <input class="input-text" (blur)="setUsername($event)" placeholder="Nome do usuario" />
+            <app-button class="btn-2" titulo="Buscar" (click)="getUser()"></app-button>
+
+        </div>
+        <br />
+
+        <h5 *ngIf="user.name">{{ user.name }}</h5>
+        <app-card [tweets]="tweets"></app-card>
+
+
+    </div>
+</div>
