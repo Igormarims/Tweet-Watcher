@@ -1,27 +1,31 @@
-# Test
+    DESAFIO PROPOSTO
+    
+   Construa uma interface web simplificada do Twitter chamada “Tweet Watcher”. Nela, os usuários devem ser capazes de pesquisar por um usuário e deve ver os 10 tweets mais recentes da timeline do usuário pesquisado. O feed do Twitter Watcher deve mostrar os seus tweets e os tweets do usuário que foi pesquisado.
+Para implementar, você pode usar o protótipo que disponibilizamos no link abaixo. Lembramos que este é um protótipo de baixa fidelidade. Ou seja, é apenas um guia de referência para que você possa desenvolver, mas que não precisa se prender fielmente a ele. É permitido usar a sua criatividade para incrementar o estilo e funcionalidades.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+Protótipo: https://www.figma.com/file/025g11kGGahprZ4KbVTgWe/TweetWatcher
 
-## Development server
+A sua aplicação deve se comunicar com a API oficial do Twitter para enviar ou recuperar os dados.
+Documentação: https://developer.twitter.com/en/docs/twitter-api 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Funcionalidade extras, mas não obrigatórias:
+- O usuário poderá curtir um tweet
+- Conteinizar o projeto em docker
 
-## Code scaffolding
+As habilidades que serão avaliadas são:
+Utilização do framework Angular:
+- Saber usar observables;
+- Saber usar serviços;
+- Saber utilizar NGRX/Redux;
+- Saber dividir o projeto em componentes;
+- Escrever um bom código typescript;
+- Seguir boas práticas e padrões de projeto.
+Estilo:
+- Customizar e aplicar componentes do angular material.
+API:
+- Autonomia para estudar e utilizar a API, de acordo com a documentação disponível.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+          RESULTADO FINAL DO DESAFIO
+          
+![image](https://user-images.githubusercontent.com/90639040/187491085-652afa85-816f-4624-8766-4ea2b3051fb3.png)
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
